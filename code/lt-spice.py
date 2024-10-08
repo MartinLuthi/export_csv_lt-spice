@@ -1,7 +1,7 @@
-import argparse
-import pandas as pd
-import matplotlib.pyplot as plt
-import re
+import argparse                 # For command-line arguments
+import pandas as pd             # For data manipulation
+import matplotlib.pyplot as plt # For plotting
+import re                       # For regular expressions
 
 # parse_txt_file: str -> DataFrame
 def parse_txt_file(file_path):
